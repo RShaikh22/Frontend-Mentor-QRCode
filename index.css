@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 99%;
+}
+
+div {
+    width: 23%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 18px;
+    font-family: Outfit;
+    font-size: 12px;
+    margin: 9em auto auto;
+    padding: 18px 3px 1em;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    padding: 8px;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 2px 20px 12px;
+}
+img {
+    border-radius: 18px;
+}
+footer{
+    bottom: 0;
+}
